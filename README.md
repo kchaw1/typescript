@@ -2,8 +2,6 @@
 
 ## 설정 & 명령어
 
----
-
 - 파일은 `*.ts` 형식을 갖는다.
 - `npm install typescript --save-dev` 를 통해 설치
 - `tsconfig.json`에 설정을 정의한다. (`tsc --init` 명령어로 생성 가능)
@@ -15,8 +13,6 @@
 - `tsc` 명령어를 통해 `*.js` 파일로 컴파일할 수 있다. 컴파일시 문법을 체크하여 잘못된 문법이 있을경우 컴파일 에러를 발생시킨다.
 
 ## 문법
-
----
 
 ### 변수선언
 
@@ -137,3 +133,5 @@
   const color = { hex: "#123456" };
   logPoint(color); // 문법오류
   ```
+
+> https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
